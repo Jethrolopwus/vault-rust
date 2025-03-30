@@ -4,7 +4,6 @@ use vault_rust::lib::{
 };
 
 fn main() {
-    // Create a Savings Account
     let mut savings = SavingsAccount::new(1000.0, 5.0);
     savings.deposit(500.0);
     savings.withdraw(200.0);
